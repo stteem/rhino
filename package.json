@@ -1,0 +1,39 @@
+{
+  "name": "rhino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stteem/rhino.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg-promise": "^10.4.4"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "cross-env": "^7.0.0",
+    "mocha": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=10.0"
+  },
+  "private": true,
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Uwem",
+    "email": "slyart147@gmail.com",
+    "url": "https://github.com/stteem"
+  },
+  "contributors": [],
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/stteem/rhino/issues"
+  },
+  "homepage": "https://github.com/stteem/rhino#readme"
+}
